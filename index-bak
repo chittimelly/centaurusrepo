@@ -1,0 +1,81 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>WEB PAGE BY BIJAN</title>
+</head>
+
+<body>
+
+<a href="http://www.freecounterstat.com" title="web counter"><img src="http://counter6.statcounterfree.com/private/freecounterstat.php?c=efe6840e13eb1d14ebacc93cd5b013c8" border="0" title="web counter" alt="web counter"></a>
+
+<embed src="music/Tere-meresaathh.mp3" autostart="true" loop="true"
+width="2" height="0">
+
+<div id="container">
+		<div id="header">
+        	<h1>Slick<span class="off">Red</span></h1>
+            <h2>BIJAN SHRESTA</h2>
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a href="#">Home</a></li>
+                <li class="menuitem"><a href="#">About</a></li>
+                <li class="menuitem"><a href="https://www.facebook.com/groups/311071419069120/">Facebook Group</a></li>
+                <li class="menuitem"><a href="#">Services</a></li>
+                <li class="menuitem"><a href="simplegallery/gallery.html">Gallery</a></li>
+              <li class="menuitem"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+				<div id="leftmenu_main">    
+                
+                <h3>Links</h3>
+                        
+                <ul>
+                    <li><a href="http://76.187.93.23:43396/bash_scripting/scripting_classvideos/">VIDEOS</a></li>
+                    <li><a href="http://76.187.93.23:43396/bash_scripting/homework/">HOMEWORK</a></li>
+                    <li><a href="http://76.187.93.23:43396/bash_scripting/scripting_class/">SCRIPTING CLASS SCRIPTS</a></li>
+		    <li><a href="#">SCREENSHOTS</a></li>
+		    <li><a href="#">LINKS FOR TUTORIALS</a></li>
+                    <li><a href="#">SCRIPT TUTORIAL</a></li>
+                    <li><a href="#">SIMPLE LINUX</a></li>
+                    <li><a href="#">ADVANCED LINUX</a></li>
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+        	
+
+		<h2>This site is created in order to help beginner linux admins.
+I will try to post links and information useful for linux admins. Hope this helps.. </h2>
+        	<p>&nbsp;</p>
+           	<p>&nbsp;</p>
+       	  	
+		<h3>Template Notes</h3>
+       	  		<p> COMMING SOON</p>
+        	<p>&nbsp;</p>
+		
+		<h3>More information</h3>
+        	<p> SITE UNDER CONSTRUCTION</p>
+       	  <p>&nbsp;</p>
+        	<h3>Template Notes</h3>
+          		<p> VERRY SOON</p>
+<p>&nbsp;</p>
+</body>
+</html>

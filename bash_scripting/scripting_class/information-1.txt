@@ -1,0 +1,159 @@
+1. to give out a commands result in a file use > ,
+	for example:. date > date.txt
+2. to append or add to the same existing file use >>
+	for example date >> date.txt
+3. standerd err :. display standerd error in the file and other in monitor
+	for example: find / -name *.conf 2> err.txt   { 2 in the symbol for error and 2> err.txt will give error and put it in the file }
+4. append everything to a file with standard out and standard error
+	for example: find / -name *.conf > all.txt 2>&1
+5. to give out content after 7th : in /etc/password file, with sorting and only unique, -c is for count 
+	for example: cut f7 -d : /etc/passwd | sort | uniq -c
+6.mathmatical expression 
+	for example: expr 3 + 4
+			inside script : echo "expr 3 + 4" instead of that do echo 'expr 3 + 4'
+5. for binary calculator use bc
+ for example look at floating.sh script
+6. end of file 
+	for example: cat > EOFinfo << EOF
+7.  if the 
+		---------------	if statement---------------------
+				if command 
+					then 
+						command
+				fi
+		---------------if then else-----------------------
+				if command
+
+			then 
+			else
+					commands
+			fi
+
+		--------------nested ifs----------------
+			if command1
+			then 
+				command set1
+			elif command2
+				command set2
+			elif command3
+				command set3
+			.....
+			fi
+
+The test command
+------------------
+-> Numerical operation
+-> String Operator
+-> File Operator
+
+Numerical operator
+---------------------
+-eq	equal
+-ge	greater or equal
+-gt	greater than
+-le 	less or equal
+-lt 	less than
+-ne	not equal to
+
+
+String operator
+---------------------
+str =str2
+str1 !=str2
+str1 < str2
+str1 >str2
+-n str1
+-z str1
+
+file operator
+--------------------------
+-d 	file is directory
+-e 	file exist
+-f 	file is normal text file
+-r 	reas permission
+-s 	file exist and not empty
+-w 	writable
+-x 	executable
+-O 	Owned by the current user
+-G 	default group is the same of owner of the currently loggined user
+file -nt file2 file1 is newer than file2
+file1 -ot file2 file2 is older than file2
+
+Logical Operator
+--------------------------
+-a 	Logical AND
+-o 	OR
+! 	NOT
+
+Compound Condition Testing
+---------------------------------
+-> [condition] || [condition2]    {condition one or condition }
+-> [condition1] && [condition2]	{need both}
+
+Advance if-then features
+----------------------------
+-> Double parenthese for mathematical expressions
+-> Double square brackets for advanced string handling functions
+
+Double parenthese
+((expression))
+
+Double parentheses Command symbols
+-------------------------------------
+val++
+val--
+++val
+--val
+!
+-
+**
+<<
+>>
+&
+|
+&&
+||
+
+
+Double parenthese
+((expression))
+
+Double brackets
+[[ expression ]]
+
+
+iteration program
+------------------------
+for
+
+for var in list
+ do
+		commands
+ done
+
+while
+---------------------
+-> The while command is somewhat of a cross between the if-then statement and the for loop.
+
+while test command
+ do
+		other commands
+ done
+
+until
+-------------
+The until command works exactly the opposite way from the while command.
+
+syntax
+
+until test commands
+ do
+		other commands
+ done
+
+Looping on file DATA
+------------------------
+-> Using nested Loop
+-> Changing the IF5 environment variable
+
+
